@@ -1,7 +1,7 @@
 # Polymer Snippets for Atom
 
 ## Install
-
+Go to `atom > Preferences...` then search for Polymer Snippets in Packages tab.
 
 ## Polymer
 
