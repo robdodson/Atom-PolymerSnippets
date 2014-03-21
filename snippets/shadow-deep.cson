@@ -1,0 +1,8 @@
+".source.css, source.less, source.scss, source.stylus":
+  "/shadow-deep/":
+    "prefix": "sd"
+    "body": """
+    /shadow-deep/ ${2:target} {
+      $0
+    }
+    """

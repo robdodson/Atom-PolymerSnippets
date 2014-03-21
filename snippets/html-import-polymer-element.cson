@@ -1,0 +1,6 @@
+".text.html":
+  "import core-element":
+    "prefix": "hic"
+    "body": """
+    <link rel="import" href="${1:bower_components}/core-$1/core-$1.html">
+    """

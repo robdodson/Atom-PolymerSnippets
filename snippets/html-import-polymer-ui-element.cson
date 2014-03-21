@@ -1,0 +1,6 @@
+".text.html":
+  "import polymer-ui-element":
+    "prefix": "hip"
+    "body": """
+    <link rel="import" href="${1:bower_components}/polymer-ui-$2/polymer-ui-$2.html">
+    """

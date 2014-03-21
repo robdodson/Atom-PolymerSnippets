@@ -1,0 +1,6 @@
+".text.html":
+  "html import":
+    "prefix": "hi"
+    "body": """
+    <link rel="import" href="$0">
+    """

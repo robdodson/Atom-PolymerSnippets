@@ -1,0 +1,4 @@
+".source.css, source.less, source.scss, source.stylus":
+  ":host":
+    "prefix": "ho"
+    "body": ":host$0"

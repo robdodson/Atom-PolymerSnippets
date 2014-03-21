@@ -1,0 +1,17 @@
+".index.html":
+  "register custom element":
+    "prefix": "ce"
+    "body": """
+    var ${4:tmpl} = document.querySelector('${5:template}');
+
+    var ${1:WidgetProto} = Object.create(HTMLElement.prototype);
+
+    ${1:WidgetProto}.createdCallback = function() {
+      var root = this.createShadowRoot();
+      root.appendChild(document.importNode(${4:tmpl}.content, true));
+    };
+
+    var ${2:Widget} = document.registerElement('${3:my-widget}', {
+      prototype: ${1:WidgetProto}
+    });
+    """
