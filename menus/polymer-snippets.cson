@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable polymer-snippets': 'polymer-snippets:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'polymer-snippets'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'polymer-snippets:toggle' }
+      ]
+    ]
+  }
+]
