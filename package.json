@@ -1,9 +1,11 @@
 {
   "name": "polymer-snippets",
   "main": "./lib/polymer-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Polymer Snippets for Atom",
-  "activationEvents": ["polymer-snippets:toggle"],
+  "activationEvents": [
+    "polymer-snippets:toggle"
+  ],
   "repository": "https://github.com/robdodson/atom-PolymerSnippets",
   "license": "MIT",
   "engines": {
