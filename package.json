@@ -3,6 +3,17 @@
   "main": "./lib/polymer-snippets",
   "version": "0.3.0",
   "description": "Polymer Snippets for Atom",
+  "author": {
+    "name": "Rob Dodson",
+    "email": "robdodson@google.com",
+    "url": "http://robdodson.me"
+  },
+  "maintainers": [
+    {
+      "name": "Mateus Ortiz",
+      "email": "mateus.prado@ig.com.br"
+    }
+  ],
   "activationEvents": [
     "polymer-snippets:toggle"
   ],
