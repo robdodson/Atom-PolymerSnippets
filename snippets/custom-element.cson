@@ -1,4 +1,4 @@
-".index.html":
+".source.js":
   "register custom element":
     "prefix": "ce"
     "body": """
