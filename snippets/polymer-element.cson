@@ -4,17 +4,17 @@
     "body": """
     ${1:<link rel="import" href="../polymer/polymer.html">}
     <polymer-element name="$2" attributes="$3">
-    	<template>
-    		<style>
-    			:host {
-    				display: block;
-    			}
-    		</style>$4
-    	</template>
-    	<script>
-    		Polymer('$2', {
+      <template>
+        <style>
+          :host {
+            display: block;
+          }
+        </style>$4
+      </template>
+      <script>
+        Polymer('$2', {
 
-    		});
-    	</script>
+        });
+      </script>
     </polymer-element>
     """
