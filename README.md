@@ -1,5 +1,7 @@
 # Polymer Snippets for Atom
 
+![banner](http://s12.postimg.org/opgzpvtpp/banner.png)
+
 ![Demo](http://imageshack.com/a/img513/5969/4hz.gif)
 
 ## Install
