@@ -1,7 +1,7 @@
 {
   "name": "polymer-snippets",
   "main": "./lib/polymer-snippets",
-  "version": "0.3.1",
+  "version": "0.3.5",
   "description": "Polymer Snippets for Atom",
   "author": {
     "name": "Rob Dodson",
