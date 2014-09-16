@@ -1,8 +1,6 @@
 ".source.css, source.less, source.scss, source.stylus":
-  "content /content/":
+  "::content":
     "prefix": "cn"
-    "body": "
-    ${1:content} /content/ ${2:target} {
-      $0
-    }
-    "
+    "body": """
+    ${1:content} ::content ${2:target}
+    """

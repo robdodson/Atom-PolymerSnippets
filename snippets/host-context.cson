@@ -1,0 +1,4 @@
+".source.css, source.less, source.scss, source.stylus":
+  ":host-context()":
+    "prefix": "hc"
+    "body": ":host-context($1)$0"

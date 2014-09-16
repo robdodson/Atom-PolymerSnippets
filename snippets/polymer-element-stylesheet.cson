@@ -1,0 +1,16 @@
+".text.html":
+  "polymer element":
+    "prefix": "pes"
+    "body": """
+    ${1:<link rel="import" href="../polymer/polymer.html">}
+    <polymer-element name="$2" attributes="$3">
+      <template>
+		    <link rel="stylesheet" href="$2.css">$4
+	    </template>
+	    <script>
+		    Polymer('$2', {
+			    $5
+		    });
+	    </script>
+    </polymer-element>
+    """

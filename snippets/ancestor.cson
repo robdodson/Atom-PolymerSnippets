@@ -1,4 +1,0 @@
-".source.css, source.less, source.scss, source.stylus":
-  ":ancestor()":
-    "prefix": "an"
-    "body": ":ancestor($1)$0"

@@ -1,8 +1,6 @@
 ".source.css, source.less, source.scss, source.stylus":
-  "/shadow-deep/":
+  "/deep/":
     "prefix": "sd"
     "body": """
-    /shadow-deep/ ${2:target} {
-      $0
-    }
+    /deep/ ${2:target}
     """

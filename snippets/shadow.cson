@@ -1,8 +1,6 @@
 ".source.css, source.less, source.scss, source.stylus":
-  "/shadow/":
+  "::shadow":
     "prefix": "sh"
     "body": """
-    /shadow/ ${2:target} {
-      $0
-    }
+    ::shadow ${2:target}
     """
