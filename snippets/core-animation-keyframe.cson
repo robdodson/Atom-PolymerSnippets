@@ -1,0 +1,8 @@
+".text.html":
+  "core animation keyframe":
+    "prefix": "core-animation-keyframe"
+    "body": """
+    <core-animation-keyframe>
+      <core-animation-prop name="${1:opacity}" value="${2:1}"></core-animation-prop>
+    </core-animation-keyframe>
+    """

@@ -1,0 +1,8 @@
+".text.html":
+  "core tooltip":
+    "prefix": "core-tooltip"
+    "body": """
+    <core-tooltip label="${1:I'm a tooltip}" position="${2:right}">
+      ${3:<span>Hover over me.</span>}
+    </core-tooltip>
+    """

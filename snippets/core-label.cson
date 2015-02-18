@@ -1,0 +1,8 @@
+".text.html":
+  "core label":
+    "prefix": "core-label"
+    "body": """
+    <core-label>
+      $0
+    </core-label>
+    """

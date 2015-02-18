@@ -1,0 +1,8 @@
+".text.html":
+  "core scroll threshold":
+    "prefix": "core-scroll-threshold"
+    "body": """
+    <core-scroll-threshold id="${1:threshold}" lowerThreshold="${2:500}"
+      on-lower-trigger="{{${3:loadMore}}}" lowerTriggered="{{${4:spinnerShouldShow}}}">
+    </core-scroll-threshold>
+    """

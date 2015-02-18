@@ -1,0 +1,11 @@
+".text.html":
+  "core overlay":
+    "prefix": "core-overlay"
+    "body": """
+    <core-overlay>
+      <h2>${1:Dialog}</h2>
+      <input placeholder="${2:say something...}" autofocus>
+      <div>${3:I agree with this wholeheartedly.}</div>
+      <button core-overlay-toggle>${4:OK}</button>
+    </core-overlay>
+    """

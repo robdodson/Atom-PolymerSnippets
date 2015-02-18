@@ -1,0 +1,6 @@
+".text.html":
+  "core signails":
+    "prefix": "core-signails"
+    "body": """
+    <core-signals on-core-signal-${1:foo}="{{${2:fooSignal}}}"></core-signals>
+    """

@@ -1,0 +1,15 @@
+".text.html":
+  "core menu button":
+    "prefix": "core-menu-button"
+    "body": """
+    <core-menu-button>
+      <core-icon-button icon="${1:menu}"></core-icon-button>
+      <core-dropdown class="dropdown" layered>
+        <core-menu>
+          <core-item>Share</core-item>
+          <core-item>Settings</core-item>
+          <core-item>Help</core-item>
+        </core-menu>
+      </core-dropdown>
+    </core-menu-button>
+    """

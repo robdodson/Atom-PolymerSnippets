@@ -1,0 +1,6 @@
+".text.html":
+  "core localstorage":
+    "prefix": "core-localstorage"
+    "body": """
+    <core-localstorage name="${1:my-app-storage}" value="{{${0:value}}}"></core-localstorage>
+    """

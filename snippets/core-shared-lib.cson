@@ -1,0 +1,6 @@
+".text.html":
+  "core shared lib":
+    "prefix": "core-shared-lib"
+    "body": """
+    <core-shared-lib on-core-shared-lib-load="{{${1:load}}}" url="${2:https://apis.google.com/js/plusone.js}${3:?onload=%%callback%%}"></core-shared-lib>
+    """

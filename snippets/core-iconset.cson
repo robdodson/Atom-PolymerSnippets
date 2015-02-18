@@ -1,0 +1,8 @@
+".text.html":
+  "core iconset":
+    "prefix": "core-iconset"
+    "body": """
+    <core-iconset id="${1:my-icons}" src="${2:my-icons.png}" width="${3:96}" iconSize="${4:24}"
+        icons="${5:location place starta stopb bus car train walk}">
+    </core-iconset>
+    """
