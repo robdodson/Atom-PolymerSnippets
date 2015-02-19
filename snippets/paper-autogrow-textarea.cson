@@ -1,0 +1,8 @@
+".text.html":
+  "paper autogrow textarea":
+    "prefix": "paper-autogrow-textarea"
+    "body": """
+    <paper-autogrow-textarea id="${1:a1}">
+      <textarea id="${2:t1}"></textarea>
+    <paper-autogrow-textarea>
+    """

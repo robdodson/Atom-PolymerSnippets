@@ -1,0 +1,8 @@
+".text.html":
+  "paper input decorator":
+    "prefix": "paper-input-decorator"
+    "body": """
+    <paper-input-decorator${1: floatingLabel} label="${2:Your Name}">
+      $0
+    </paper-input-decorator>
+    """

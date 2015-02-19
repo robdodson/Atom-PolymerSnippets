@@ -1,0 +1,6 @@
+".text.html":
+  "paper tab":
+    "prefix": "paper-tab"
+    "body": """
+    <paper-tab>$0</paper-tab>
+    """

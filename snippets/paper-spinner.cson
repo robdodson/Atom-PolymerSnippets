@@ -1,0 +1,6 @@
+".text.html":
+  "paper spinner":
+    "prefix": "paper-spinner"
+    "body": """
+    <paper-spinner${1: active}></paper-spinner>
+    """

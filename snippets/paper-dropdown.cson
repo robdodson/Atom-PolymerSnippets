@@ -1,0 +1,8 @@
+".text.html":
+  "paper dropdown":
+    "prefix": "paper-dropdown"
+    "body": """
+    <paper-dropdown>
+      $0
+    </paper-dropdown>
+    """

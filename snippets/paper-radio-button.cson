@@ -1,0 +1,6 @@
+".text.html":
+  "paper radio button":
+    "prefix": "paper-radio-button"
+    "body": """
+    <paper-radio-button></paper-radio-button>
+    """

@@ -1,0 +1,8 @@
+".text.html":
+  "paper dialog":
+    "prefix": "paper-dialog"
+    "body": """
+    <paper-dialog heading="${1:Dialog Title}">
+      $0
+    </paper-dialog>
+    """

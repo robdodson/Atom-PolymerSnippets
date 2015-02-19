@@ -1,0 +1,6 @@
+".text.html":
+  "paper toast":
+    "prefix": "paper-toast"
+    "body": """
+    <paper-toast text="${1:Your draft has been discarded.}">$0</paper-toast>
+    """
