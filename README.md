@@ -2,17 +2,20 @@
 
 ![banner](http://s12.postimg.org/opgzpvtpp/banner.png)
 
-![Demo](http://imageshack.com/a/img513/5969/4hz.gif)
-
 ## Install
 Go to `atom > Preferences...` then search for Polymer Snippets in Packages tab.
+
+## Elements
+
+Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project.org/docs/elements/), then hit `tab` to auto complete. Ex:
+
+![Demo](https://cloud.githubusercontent.com/assets/1066253/6306345/80bc2076-b8e7-11e4-9529-64494eb46540.gif)
 
 ## Polymer
 
 ### [pe] polymer element
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
 <polymer-element name="${2}" attributes="${3}">
   <template>
     <style>
@@ -22,7 +25,7 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
     </style>$4
   </template>
   <script>
-    Polymer('$2', {
+    Polymer({
 
     });
   </script>
@@ -32,7 +35,6 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 ### [pen] polymer element noscript
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
 <polymer-element name="${2}" noscript>
   <template>
     <style>
@@ -42,6 +44,27 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
     </style>$4
   </template>
 </polymer-element>
+```
+
+### [pes] polymer element with external stylesheet
+
+```html
+<polymer-element name="$1" attributes="$2">
+  <template>
+    <link rel="stylesheet" href="$3.css">$4
+  </template>
+  <script>
+    Polymer({
+      $5
+    });
+  </script>
+</polymer-element>
+```
+
+### [hi] html import
+
+```html
+<link rel="import" href="${0}">
 ```
 
 ### [hic] html import core-* element
@@ -61,12 +84,6 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 ### [tm] template
 ```html
 <template$1>$0</template>
-```
-
-### [hi] html import
-
-```html
-<link rel="import" href="${0}">
 ```
 
 ### [ce] custom element
