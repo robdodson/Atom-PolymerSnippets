@@ -2,17 +2,20 @@
 
 ![banner](http://s12.postimg.org/opgzpvtpp/banner.png)
 
-![Demo](http://imageshack.com/a/img513/5969/4hz.gif)
-
 ## Install
 Go to `atom > Preferences...` then search for Polymer Snippets in Packages tab.
+
+## Elements
+
+Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project.org/docs/elements/), then hit `tab` to auto complete. Ex:
+
+![Demo](https://cloud.githubusercontent.com/assets/1066253/6306345/80bc2076-b8e7-11e4-9529-64494eb46540.gif)
 
 ## Polymer
 
 ### [pe] polymer element
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
 <polymer-element name="${2}" attributes="${3}">
   <template>
     <style>
@@ -22,7 +25,7 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
     </style>$4
   </template>
   <script>
-    Polymer('$2', {
+    Polymer({
 
     });
   </script>
@@ -32,7 +35,6 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 ### [pen] polymer element noscript
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
 <polymer-element name="${2}" noscript>
   <template>
     <style>
@@ -42,6 +44,27 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
     </style>$4
   </template>
 </polymer-element>
+```
+
+### [pes] polymer element with external stylesheet
+
+```html
+<polymer-element name="$1" attributes="$2">
+  <template>
+    <link rel="stylesheet" href="$3.css">$4
+  </template>
+  <script>
+    Polymer({
+      $5
+    });
+  </script>
+</polymer-element>
+```
+
+### [hi] html import
+
+```html
+<link rel="import" href="${0}">
 ```
 
 ### [hic] html import core-* element
@@ -63,12 +86,6 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 <template$1>$0</template>
 ```
 
-### [hi] html import
-
-```html
-<link rel="import" href="${0}">
-```
-
 ### [ce] custom element
 
 ```javascript
@@ -85,6 +102,52 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
   prototype: ${1:WidgetProto}
 });
 ```
+
+## HTML
+
+### [ph] HTML template with Web Components polyfill
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>${1}</title>
+  <meta name="description" content="${2}">
+
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- Chrome / Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="icon.png">
+
+  <!-- Safari / iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+
+  <!-- Web Components -->
+  <script>
+    if ('registerElement' in document
+    && 'createShadowRoot' in HTMLElement.prototype
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template')) {
+      // Native WC support. Do nothing
+    } else {
+      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+    }
+  </script>
+</head>
+<body unresolved>
+  $0
+</body>
+</html>
+```
+
+## CSS
 
 ### [sh] ::shadow
 ```css
