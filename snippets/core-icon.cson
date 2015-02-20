@@ -1,0 +1,6 @@
+".text.html":
+  "core icon":
+    "prefix": "core-icon"
+    "body": """
+    <core-icon icon="$0"></core-icon>
+    """

@@ -1,0 +1,15 @@
+".text.html":
+  "core dropdown menu":
+    "prefix": "core-dropdown-menu"
+    "body": """
+    <core-dropdown-menu label="Choose a pastry">
+      <core-dropdown class="dropdown">
+        <core-selector>
+          <core-item label="Croissant"></core-item>
+          <core-item label="Donut"></core-item>
+          <core-item label="Financier"></core-item>
+          <core-item label="Madeleine"></core-item>
+        </core-selector>
+      </core-dropdown>
+    </core-dropdown-menu>
+    """

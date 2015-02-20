@@ -1,0 +1,6 @@
+".text.html":
+  "paper button":
+    "prefix": "paper-button"
+    "body": """
+    <paper-button${1: raised}>$0</paper-button>
+    """

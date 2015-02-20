@@ -1,0 +1,10 @@
+".text.html":
+  "core animated pages":
+    "prefix": "core-animated-pages"
+    "body": """
+    <core-animated-pages selected="${1:0}" transitions="${2}">
+      <section>$0</section>
+      <section></section>
+      <section></section>
+    </core-animated-pages>
+    """

@@ -2,7 +2,6 @@
   "polymer element noscript":
     "prefix": "pen"
     "body": """
-    ${1:<link rel="import" href="../polymer/polymer.html">}
     <polymer-element name="$2" noscript attributes="$3">
       <template>
         <style>

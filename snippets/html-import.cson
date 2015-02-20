@@ -2,5 +2,5 @@
   "html import":
     "prefix": "hi"
     "body": """
-    <link rel="import" href="${1:bower_components}/$0">
+    <link rel="import" href="${1:bower_components}/${0}/${0}.html">
     """

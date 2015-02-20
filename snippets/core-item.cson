@@ -1,0 +1,6 @@
+".text.html":
+  "core item":
+    "prefix": "core-item"
+    "body": """
+    <core-item label="$0"></core-item>
+    """

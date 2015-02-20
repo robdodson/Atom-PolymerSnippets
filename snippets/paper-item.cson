@@ -1,0 +1,6 @@
+".text.html":
+  "paper item":
+    "prefix": "paper-item"
+    "body": """
+    <paper-item>$0</paper-item>
+    """

@@ -1,0 +1,15 @@
+".text.html":
+  "paper menu button":
+    "prefix": "paper-menu-button"
+    "body": """
+    <paper-menu-button>
+      <paper-icon-button icon="${1:menu}" noink></paper-icon-button>
+      <paper-dropdown class="dropdown">
+        <core-menu class="menu">
+          <paper-item>${2:Share}</paper-item>
+          <paper-item>${3:Settings}</paper-item>
+          <paper-item>${4:Help}</paper-item>
+        </core-menu>
+      </paper-dropdown>
+    </paper-menu-button>
+    """

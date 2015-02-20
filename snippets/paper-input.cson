@@ -1,0 +1,6 @@
+".text.html":
+  "paper input":
+    "prefix": "paper-input"
+    "body": """
+    <paper-input label="$0"></paper-input>
+    """

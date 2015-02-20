@@ -1,0 +1,6 @@
+".text.html":
+  "paper ripple":
+    "prefix": "paper-ripple"
+    "body": """
+    <paper-ripple fit></paper-ripple>
+    """

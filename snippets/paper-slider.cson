@@ -1,0 +1,6 @@
+".text.html":
+  "paper slider":
+    "prefix": "paper-slider"
+    "body": """
+    <paper-slider min="${1:10}" max="${2:200}" value="${3:110}"></paper-slider>
+    """

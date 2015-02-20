@@ -2,7 +2,6 @@
   "polymer element":
     "prefix": "pe"
     "body": """
-    ${1:<link rel="import" href="../polymer/polymer.html">}
     <polymer-element name="$2" attributes="$3">
       <template>
         <style>
@@ -12,7 +11,7 @@
         </style>$4
       </template>
       <script>
-        Polymer('$2', {
+        Polymer({
           $5
         });
       </script>

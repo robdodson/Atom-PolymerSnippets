@@ -1,0 +1,6 @@
+".text.html":
+  "paper icon button":
+    "prefix": "paper-icon-button"
+    "body": """
+    <paper-icon-button icon="$0"></paper-icon-button>
+    """
