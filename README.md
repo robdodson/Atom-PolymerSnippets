@@ -195,4 +195,4 @@ polyfill-next-selector { content: '${1::host > .foo}'; }$0
 
 ## License
 
-[MIT License](http://robdodson.mit-license.org/) Â© Rob Dodson
+[MIT License](http://robdodson.mit-license.org/) © Rob Dodson
