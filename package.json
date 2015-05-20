@@ -20,7 +20,7 @@
   "repository": "https://github.com/robdodson/atom-PolymerSnippets",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.199.0"
   },
   "dependencies": {}
 }
