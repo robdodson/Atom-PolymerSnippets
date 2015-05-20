@@ -14,7 +14,7 @@
       "email": "mateus.prado@ig.com.br"
     }
   ],
-  "activationEvents": [
+  "activationCommands": [
     "polymer-snippets:toggle"
   ],
   "repository": "https://github.com/robdodson/atom-PolymerSnippets",
