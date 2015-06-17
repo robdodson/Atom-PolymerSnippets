@@ -1,7 +1,7 @@
 {
   "name": "polymer-snippets",
   "main": "./lib/polymer-snippets",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Polymer Snippets for Atom",
   "author": {
     "name": "Rob Dodson",
@@ -14,13 +14,13 @@
       "email": "mateus.prado@ig.com.br"
     }
   ],
-  "activationEvents": [
-    "polymer-snippets:toggle"
-  ],
+  "activationCommands": {
+    "atom-text-editor": ["polymer-snippets:toggle"]
+  },
   "repository": "https://github.com/robdodson/atom-PolymerSnippets",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.199.0"
   },
   "dependencies": {}
 }
