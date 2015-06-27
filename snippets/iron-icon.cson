@@ -1,0 +1,6 @@
+".text.html":
+  "iron icon":
+    "prefix": "iron-icon"
+    "body": """
+    <iron-icon icon="$0"></iron-icon>
+    """

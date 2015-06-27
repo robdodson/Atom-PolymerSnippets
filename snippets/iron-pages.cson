@@ -1,0 +1,10 @@
+".text.html":
+  "iron pages":
+    "prefix": "iron-pages"
+    "body": """
+    <iron-pages selected="${1:0}">
+      <section>$2</section>
+      <section>$3</section>
+      <section>$4</section>
+    </iron-pages>
+    """

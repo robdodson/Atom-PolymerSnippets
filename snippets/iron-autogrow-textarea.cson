@@ -1,0 +1,8 @@
+".text.html":
+  "iron autogrow textarea":
+    "prefix": "iron-autogrow-textarea"
+    "body": """
+    <iron-autogrow-textarea>
+      <textarea></textarea>
+    </iron-autogrow-textarea>
+    """

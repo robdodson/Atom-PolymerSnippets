@@ -1,0 +1,11 @@
+".text.html":
+  "paper scroll header panel":
+    "prefix": "paper-scroll-header-panel"
+    "body": """
+    <paper-scroll-header-panel ${1:condenses} class="flex">
+      <paper-toolbar>
+        <div>${2:My App}</div>
+      </paper-toolbar>
+      <div>${3:Page content}</div>
+    </paper-scroll-header-panel>
+    """

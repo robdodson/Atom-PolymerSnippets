@@ -1,9 +1,11 @@
 ".text.html":
-  "paper dialog":
+  "paper dialog scrollable":
     "prefix": "paper-dialog"
     "body": """
     <paper-dialog>
       <h2>${1:Dialog Title}</h2>
-      $0
+      <paper-dialog-scrollable>
+        $0
+      </paper-dialog-scrollable>
     </paper-dialog>
     """

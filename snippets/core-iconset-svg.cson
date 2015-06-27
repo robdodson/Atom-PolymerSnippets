@@ -1,6 +1,0 @@
-".text.html":
-  "core iconset svg":
-    "prefix": "core-iconset-svg"
-    "body": """
-    <core-iconset-svg id="$1" iconSize="${0:24}"></core-iconset-svg>
-    """

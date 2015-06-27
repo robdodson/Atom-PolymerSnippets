@@ -1,6 +1,0 @@
-".source.css, source.less, source.scss, source.stylus":
-  "polyfill-next-selector":
-    "prefix": "pf"
-    "body": """
-    polyfill-next-selector { content: '${1::host > .foo}'; }$0
-    """

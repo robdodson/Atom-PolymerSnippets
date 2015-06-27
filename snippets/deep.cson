@@ -1,6 +1,0 @@
-".source.css, source.less, source.scss, source.stylus":
-  "/deep/":
-    "prefix": "sd"
-    "body": """
-    /deep/ ${2:target}
-    """

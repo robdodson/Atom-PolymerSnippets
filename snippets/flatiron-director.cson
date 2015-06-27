@@ -1,6 +1,0 @@
-".text.html":
-  "flatiron director":
-    "prefix": "flatiron-director"
-    "body": """
-    <flatiron-director route="{{route}}" autoHash></flatiron-director>
-    """

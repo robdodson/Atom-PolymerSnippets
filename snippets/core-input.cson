@@ -1,6 +1,0 @@
-".text.html":
-  "core input":
-    "prefix": "core-input"
-    "body": """
-    <input is="core-input">
-    """

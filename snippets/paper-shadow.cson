@@ -1,6 +1,0 @@
-".text.html":
-  "paper shadow":
-    "prefix": "paper-shadow"
-    "body": """
-    <paper-shadow z="${1:1}"${2: animated}>$0</paper-shadow>
-    """

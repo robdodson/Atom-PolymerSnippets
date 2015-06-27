@@ -1,6 +1,0 @@
-".text.html":
-  "core xhr":
-    "prefix": "core-xhr"
-    "body": """
-    <core-xhr id="$0"></core-xhr>
-    """

@@ -1,8 +1,0 @@
-".text.html":
-  "core selector":
-    "prefix": "core-selector"
-    "body": """
-    <core-selector selected="${1:0}">
-      $0
-    </core-selector>
-    """

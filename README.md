@@ -10,7 +10,7 @@ If you have [Emmet](https://github.com/emmetio/emmet-atom) installed it will clo
 
 ## Elements
 
-Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project.org/docs/elements/), then hit `tab` to auto complete. Ex:
+Type the name of [any `iron-*` or `paper-*` element](https://elements.www.polymer-project.org/), then hit `tab` to auto complete. Ex:
 
 ![Demo](https://cloud.githubusercontent.com/assets/1066253/6306345/80bc2076-b8e7-11e4-9529-64494eb46540.gif)
 
@@ -19,61 +19,49 @@ Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project
 ### [pe] polymer element
 
 ```html
-<polymer-element name="${2}" attributes="${3}">
+<dom-module id="${1}">
   <template>
     <style>
       :host {
         display: block;
       }
-    </style>$4
+    </style>
+    $2
   </template>
   <script>
     Polymer({
-
+      is: '$1'
     });
   </script>
-</polymer-element>
-```
-
-### [pen] polymer element noscript
-
-```html
-<polymer-element name="${2}" noscript>
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>$4
-  </template>
-</polymer-element>
+</dom-module>
 ```
 
 ### [pes] polymer element with external stylesheet
 
 ```html
-<polymer-element name="$1" attributes="$2">
+<dom-module id="$1">
   <template>
-    <link rel="stylesheet" href="$3.css">$4
+    <link rel="import" type="css" href="$1.css">
+    $2
   </template>
   <script>
     Polymer({
-      $5
+      is: '$1'
     });
   </script>
-</polymer-element>
+</dom-module>
 ```
 
 ### [hi] html import
 
 ```html
-<link rel="import" href="${0}">
+<link rel="import" href="${1:bower_components}/${0}/${0}.html">
 ```
 
-### [hic] html import core-* element
+### [hii] html import iron-* element
 
 ```html
-<link rel="import" href="${1:bower_components}/core-${2}/core-${2}.html">
+<link rel="import" href="${1:bower_components}/iron-${2}/iron-${2}.html">
 ```
 
 ### [hip] html import paper-* element
@@ -84,7 +72,7 @@ Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project
 
 ## Web Components
 
-### [tm] template
+### [template] template
 ```html
 <template$1>$0</template>
 ```
@@ -133,59 +121,12 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 
   <!-- Web Components -->
-  <script>
-    if ('registerElement' in document
-    && 'createShadowRoot' in HTMLElement.prototype
-    && 'import' in document.createElement('link')
-    && 'content' in document.createElement('template')) {
-      // Native WC support. Do nothing
-    } else {
-      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
-    }
-  </script>
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 </head>
 <body unresolved>
   $0
 </body>
 </html>
-```
-
-## CSS
-
-### [sh] ::shadow
-```css
-::shadow ${2:target} {
-  $0
-}
-```
-
-### [sd] /deep/
-```css
-/deep/ ${2:target} {
-  $0
-}
-```
-
-### [cn] content::content
-```css
-${1:content}::content ${2:target} {
-	$0
-}
-```
-
-### [ho] :host
-```css
-:host$0
-```
-
-### [hc] :host-context()
-```css
-:host-context($0)
-```
-
-### [pf] polyfill-next-selector
-```css
-polyfill-next-selector { content: '${1::host > .foo}'; }$0
 ```
 
 ## Contributing

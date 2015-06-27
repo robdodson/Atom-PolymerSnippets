@@ -1,6 +1,0 @@
-".text.html":
-  "core drag drop":
-    "prefix": "core-drag-drop"
-    "body": """
-    <core-drag-drop></core-drag-drop>
-    """

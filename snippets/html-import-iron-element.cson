@@ -1,0 +1,6 @@
+".text.html":
+  "import iron-element":
+    "prefix": "hii"
+    "body": """
+    <link rel="import" href="${1:bower_components}/iron-$2/iron-$2.html">
+    """

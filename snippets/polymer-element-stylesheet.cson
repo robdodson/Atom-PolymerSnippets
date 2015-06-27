@@ -1,15 +1,16 @@
 ".text.html":
-  "polymer element":
+  "polymer element, external styles":
     "prefix": "pes"
     "body": """
-    <polymer-element name="$2" attributes="$3">
+    <dom-module id="$1">
       <template>
-		    <link rel="stylesheet" href="$2.css">$4
+		    <link rel="import" type="css" href="$1.css">
+        $2
 	    </template>
 	    <script>
 		    Polymer({
-			    $5
+			    is: '$1'
 		    });
 	    </script>
-    </polymer-element>
+    </dom-module>
     """

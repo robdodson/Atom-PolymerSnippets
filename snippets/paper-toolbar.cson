@@ -1,0 +1,8 @@
+".text.html":
+  "paper toolbar":
+    "prefix": "paper-toolbar"
+    "body": """
+    <paper-toolbar class="${1:tall}">
+      $0
+    </paper-toolbar>
+    """

@@ -1,0 +1,8 @@
+".text.html":
+  "iron selector":
+    "prefix": "iron-selector"
+    "body": """
+    <iron-selector selected="${1:0}">
+      $0
+    </iron-selector>
+    """
