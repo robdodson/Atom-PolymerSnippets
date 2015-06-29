@@ -4,13 +4,13 @@
     "body": """
     <dom-module id="$1">
       <template>
-		    <link rel="import" type="css" href="$1.css">
+        <link rel="import" type="css" href="$1.css">
         $2
-	    </template>
-	    <script>
-		    Polymer({
-			    is: '$1'
-		    });
-	    </script>
+      </template>
+      <script>
+        Polymer({
+          is: '$1'
+        });
+      </script>
     </dom-module>
     """
