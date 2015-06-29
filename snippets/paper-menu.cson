@@ -3,7 +3,7 @@
     "prefix": "paper-menu"
     "body": """
     <paper-menu${1: multi}>
-    <paper-item>Item 1</paper-item>
-    <paper-item>Item 2</paper-item>
+      <paper-item>Item 1</paper-item>
+      <paper-item>Item 2</paper-item>
     </paper-menu>
     """
