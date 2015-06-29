@@ -1,0 +1,8 @@
+".text.html":
+  "iron iconset svg":
+    "prefix": "iron-iconset-svg"
+    "body": """
+    <iron-iconset-svg id="$1" iconSize="${0:24}">
+      $0
+    </iron-iconset-svg>
+    """

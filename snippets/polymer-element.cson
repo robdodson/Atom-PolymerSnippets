@@ -2,18 +2,19 @@
   "polymer element":
     "prefix": "pe"
     "body": """
-    <polymer-element name="$2" attributes="$3">
+    <dom-module id="$1">
       <template>
         <style>
           :host {
             display: block;
           }
-        </style>$4
+        </style>
+        $2
       </template>
       <script>
         Polymer({
-          $5
+          is: '$1'
         });
       </script>
-    </polymer-element>
+    </dom-module>
     """

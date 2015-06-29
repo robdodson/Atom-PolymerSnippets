@@ -1,6 +1,0 @@
-".text.html":
-  "core style":
-    "prefix": "core-style"
-    "body": """
-    <core-style>$0</core-style>
-    """

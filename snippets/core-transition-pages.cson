@@ -1,9 +1,0 @@
-".text.html":
-  "core transition pages":
-    "prefix": "core-transition-pages"
-    "body": """
-    <core-style id="${1:fooTransition}">
-        // some CSS here
-    </core-style>
-    <core-transition-pages id="${1:fooTransition}"></core-transition-pages>
-    """

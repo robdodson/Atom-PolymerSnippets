@@ -1,0 +1,9 @@
+".text.html":
+  "paper header panel":
+    "prefix": "paper-header-panel"
+    "body": """
+    <paper-header-panel class="flex">
+      <paper-toolbar>${1}</paper-toolbar>
+      <div>$0</div>
+    </paper-header-panel>
+    """

@@ -1,7 +1,0 @@
-".text.html":
-  "core media query":
-    "prefix": "core-media-query"
-    "body": """
-    <core-media-query query="${1:min-width: 640px}" queryMatches="{{${2:largeScreen}}}">
-    </core-media-query>
-    """

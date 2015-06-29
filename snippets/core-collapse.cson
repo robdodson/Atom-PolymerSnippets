@@ -1,8 +1,0 @@
-".text.html":
-  "core collapse":
-    "prefix": "core-collapse"
-    "body": """
-    <core-collapse id="${1:collapse}">
-      Content goes here...
-    </core-collapse>
-    """

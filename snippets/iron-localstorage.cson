@@ -1,0 +1,6 @@
+".text.html":
+  "iron localstorage":
+    "prefix": "iron-localstorage"
+    "body": """
+      <iron-localstorage name="${1:my-app-storage}" value="{{${0:value}}}"></iron-localstorage>
+    """

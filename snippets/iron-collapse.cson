@@ -1,0 +1,8 @@
+".text.html":
+  "iron collapse":
+    "prefix": "iron-collapse"
+    "body": """
+    <iron-collapse id="${1:collapse}">
+      Content goes here...
+    </iron-collapse>
+    """

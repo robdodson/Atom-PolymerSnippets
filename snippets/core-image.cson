@@ -1,6 +1,0 @@
-".text.html":
-  "core image":
-    "prefix": "core-image"
-    "body": """
-    <core-image src="$1" ${2:preload} sizing="${3:cover}"></core-image>
-    """

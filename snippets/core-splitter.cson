@@ -1,6 +1,0 @@
-".text.html":
-  "core splitter":
-    "prefix": "core-splitter"
-    "body": """
-    <core-splitter direction="${1:left}"></core-splitter>
-    """

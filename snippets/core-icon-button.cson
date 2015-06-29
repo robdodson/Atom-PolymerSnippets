@@ -1,6 +1,0 @@
-".text.html":
-  "core icon button":
-    "prefix": "core-icon-button"
-    "body": """
-    <core-icon-button icon="$0"></core-icon-button>
-    """

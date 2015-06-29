@@ -1,7 +1,0 @@
-".text.html":
-  "core selection":
-    "prefix": "core-selection"
-    "body": """
-    <core-selection id="${1:selection}" ${2:multi}
-          on-core-select="{{${3:selectAction}}}"></core-selection>
-    """

@@ -1,6 +1,0 @@
-".text.html":
-  "core field group":
-    "prefix": "core-field"
-    "body": """
-    <core-field>$0</core-field>
-    """

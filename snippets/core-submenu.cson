@@ -1,9 +1,0 @@
-".text.html":
-  "core submenu":
-    "prefix": "core-submenu"
-    "body": """
-    <core-submenu icon="$1" label="$2">$0
-      <core-item label="Topic 1"></core-item>
-      <core-item label="Topic 2"></core-item>
-    </core-submenu>
-    """

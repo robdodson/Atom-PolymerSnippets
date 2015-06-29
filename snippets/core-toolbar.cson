@@ -1,6 +1,0 @@
-".text.html":
-  "core toolbar":
-    "prefix": "core-toolbar"
-    "body": """
-    <core-toolbar>$0</core-toolbar>
-    """

@@ -1,6 +1,0 @@
-".text.html":
-  "core animation prop":
-    "prefix": "core-animation-prop"
-    "body": """
-      <core-animation-prop name="${1:opacity}" value="${2:1}"></core-animation-prop>
-    """

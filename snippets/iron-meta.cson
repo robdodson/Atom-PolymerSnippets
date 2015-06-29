@@ -1,0 +1,6 @@
+".text.html":
+  "iron meta":
+    "prefix": "iron-meta"
+    "body": """
+    <iron-meta key="${1:info}"></iron-meta>
+    """
