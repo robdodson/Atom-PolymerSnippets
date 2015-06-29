@@ -12,7 +12,7 @@ If you have [Emmet](https://github.com/emmetio/emmet-atom) installed it will clo
 
 Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-project.org/), then hit `tab` to auto complete. Ex:
 
-![Demo](https://cloud.githubusercontent.com/assets/1066253/6306345/80bc2076-b8e7-11e4-9529-64494eb46540.gif)
+![snippet1](https://cloud.githubusercontent.com/assets/1066253/8414154/cfcc68ba-1e4a-11e5-9363-e8a92f524ed3.gif)
 
 ## Polymer
 
