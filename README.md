@@ -3,7 +3,7 @@
 ![banner](http://s12.postimg.org/opgzpvtpp/banner.png)
 
 ## Install
-Go to `atom > Preferences...` then search for Polymer Snippets in Packages tab.
+Go to `atom > Preferences...` then search for Polymer Snippets in the `Install` tab.
 
 ## Compatibility with Emmet
 If you have [Emmet](https://github.com/emmetio/emmet-atom) installed it will clobber the tab completion for HTML snippets. You can follow [this workaround](https://github.com/emmetio/emmet-atom/issues/225#issuecomment-82669798) to get Polymer snippets working again.
