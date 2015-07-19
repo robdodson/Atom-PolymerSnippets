@@ -24,7 +24,7 @@
         <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 
         <!-- Web Components -->
-          <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
       </head>
       <body unresolved>
         $0
