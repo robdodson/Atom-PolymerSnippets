@@ -2,6 +2,6 @@
   "iron media query":
     "prefix": "iron-media-query"
     "body": """
-    <iron-media-query query="${1:min-width: 640px}" queryMatches="{{${2:largeScreen}}}">
+    <iron-media-query query="${1:min-width: 640px}" query-matches="{{${2:largeScreen}}}">
     </iron-media-query>
     """
