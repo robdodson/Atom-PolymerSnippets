@@ -1,0 +1,6 @@
+".text.html":
+  "dom-if":
+    "prefix": "dom-if"
+    "body": """
+    <template is="dom-if" if="$1"${2: restamp="true"}>$0</template>
+    """
