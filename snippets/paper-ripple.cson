@@ -2,5 +2,5 @@
   "paper ripple":
     "prefix": "paper-ripple"
     "body": """
-    <paper-ripple fit></paper-ripple>
+    <paper-ripple></paper-ripple>
     """
