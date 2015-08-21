@@ -3,7 +3,7 @@
     "prefix": "ph"
     "body": """
     <!DOCTYPE html>
-      <html>
+    <html>
       <head>
         <meta charset="utf-8">
 
@@ -29,5 +29,5 @@
       <body unresolved>
         $0
       </body>
-      </html>
+    </html>
     """
