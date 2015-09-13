@@ -20,12 +20,12 @@ Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-pr
 
 ```html
 <dom-module id="${1}">
-  <style>
-    :host {
-      display: block;
-    }
-  </style>
   <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
     $2
   </template>
   <script>
