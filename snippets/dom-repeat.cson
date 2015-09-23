@@ -1,4 +1,5 @@
-"dom-repeat":
+".text.html":
+  "dom-repeat":
     "prefix": "dom-repeat"
     "body": """
     <template is="dom-repeat" items="$1"${2: index-as="index"}>$0</template>
