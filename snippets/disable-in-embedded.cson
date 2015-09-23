@@ -1,0 +1,105 @@
+# These null out the snippets so the snippets are not available when in a tag or
+# in embedded contexts like <script> and <style>
+".text.html .embedded":
+  "dom-if":
+    "prefix": "dom-if"
+  "dom-repeat":
+    "prefix": "dom-repeat"
+  "import iron-element":
+    "prefix": "hii"
+  "import paper-element":
+    "prefix": "hip"
+  "html import":
+    "prefix": "hi"
+  "Polymer page template":
+    "prefix": "ph"
+  "iron a11y keys":
+    "prefix": "iron-a11y-keys"
+  "iron ajax":
+    "prefix": "iron-ajax"
+  "iron autogrow textarea":
+    "prefix": "iron-autogrow-textarea"
+  "iron collapse":
+    "prefix": "iron-collapse"
+  "iron doc viewer":
+    "prefix": "iron-doc-viewer"
+  "iron form":
+    "prefix": "iron-form"
+  "iron icon":
+    "prefix": "iron-icon"
+  "iron iconset svg":
+    "prefix": "iron-iconset-svg"
+  "iron iconset":
+    "prefix": "iron-iconset"
+  "iron image":
+    "prefix": "iron-image"
+  "iron input":
+    "prefix": "iron-input"
+  "iron localstorage":
+    "prefix": "iron-localstorage"
+  "iron media query":
+    "prefix": "iron-media-query"
+  "iron meta":
+    "prefix": "iron-meta"
+  "iron pages":
+    "prefix": "iron-pages"
+  "iron selector":
+    "prefix": "iron-selector"
+  "paper autogrow textarea":
+    "prefix": "paper-autogrow-textarea"
+  "paper button":
+    "prefix": "paper-button"
+  "paper checkbox":
+    "prefix": "paper-checkbox"
+  "paper dialog scrollable":
+    "prefix": "paper-dialog"
+  "paper dialog":
+    "prefix": "paper-dialog"
+  "paper drawer panel":
+    "prefix": "paper-drawer-panel"
+  "paper fab":
+    "prefix": "paper-fab"
+  "paper header panel":
+    "prefix": "paper-header-panel"
+  "paper icon button":
+    "prefix": "paper-icon-button"
+  "paper input":
+    "prefix": "paper-input"
+  "paper item":
+    "prefix": "paper-item"
+  "paper material":
+    "prefix": "paper-material"
+  "paper menu":
+    "prefix": "paper-menu"
+  "paper progress":
+    "prefix": "paper-progress"
+  "paper radio button":
+    "prefix": "paper-radio-button"
+  "paper radio group":
+    "prefix": "paper-radio-group"
+  "paper ripple":
+    "prefix": "paper-ripple"
+  "paper scroll header panel":
+    "prefix": "paper-scroll-header-panel"
+  "paper slider":
+    "prefix": "paper-slider"
+  "paper spinner":
+    "prefix": "paper-spinner"
+  "paper tab":
+    "prefix": "paper-tab"
+  "paper tabs":
+    "prefix": "paper-tabs"
+  "paper toast":
+    "prefix": "paper-toast"
+  "paper toggle button":
+    "prefix": "paper-toggle-button"
+  "paper toolbar":
+    "prefix": "paper-toolbar"
+  "polymer element, external styles":
+    "prefix": "pes"
+  "polymer element":
+    "prefix": "pe"
+  "template":
+    "prefix": "template"
+  "web components polyfill":
+    "prefix": "webcomponents"
