@@ -3,8 +3,8 @@
     "prefix": "pes"
     "body": """
     <dom-module id="$1">
-      <link rel="import" type="css" href="$1.css">
       <template>
+        <style include="$1"></style>
         $2
       </template>
       <script>
