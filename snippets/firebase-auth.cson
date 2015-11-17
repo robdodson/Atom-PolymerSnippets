@@ -1,0 +1,18 @@
+".text.html":
+  "Element for Firebase authetication API":
+    "prefix": "fba"
+    "body": """
+    <firebase-auth
+    	id="${1:firebaseAuth}"
+    	user="{{${2:user}}}"
+    	status-known="{{${3:statusKnown}}}"
+    	location="https://${4:<YOUR-FIREBASE-APP>}.firebaseio.com"
+    	provider="{{${5:provider}}}"
+    	on-error="${6:errorHandler}"
+    	on-user-created="${7:userSuccessHandler}"
+    	on-password-changed="${7:userSuccessHandler}"
+    	on-password-reset="${7:userSuccessHandler}"
+    	on-user-removed="${7:userSuccessHandler}">
+    </firebase-auth>
+    $0
+    """
