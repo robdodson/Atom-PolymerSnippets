@@ -1,0 +1,25 @@
+".text.html":
+  "Polymer Element full strict":
+    "prefix": "pefs"
+    "body": """
+    <link rel="import" href="$1/polymer/polymer.html">
+    <dom-module id="$2">
+    	<template>
+    		<style>
+    			:host {
+    				display: block;
+    			}
+    		</style>
+    		$3
+    	</template>
+    	<script>
+    		(function() {
+    			'use strict';
+
+    			Polymer({
+    				is: '$2'
+    			});
+    		})();
+    	</script>
+    </dom-module>
+    """
