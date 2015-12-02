@@ -1,0 +1,9 @@
+".text.html":
+  "paper card":
+    "prefix": "paper-card"
+    "body": """
+    <paper-card>
+      <div class="card-content">$0</div>
+      <div class="card-actions"></div>
+    </paper-card>
+    """
