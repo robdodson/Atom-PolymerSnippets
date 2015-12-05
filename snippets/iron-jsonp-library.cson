@@ -1,0 +1,9 @@
+".text.html":
+  "iron jsonp library":
+    "prefix": "iron-jsonp-library"
+    "body": """
+    <iron-jsonp-library
+      library-url="${1}"
+      notify-event="${2}"
+      library-loaded="${3}"></iron-jsonp-library>
+    """
