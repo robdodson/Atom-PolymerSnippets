@@ -2,5 +2,5 @@
   "iron input":
     "prefix": "iron-input"
     "body": """
-    <input is="iron-input" bind-value="{{${1:myValue}}}">
+      <input is="iron-input" bind-value="{{${1:myValue}}}">
     """
