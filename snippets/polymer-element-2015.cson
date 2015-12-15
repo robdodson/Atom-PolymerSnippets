@@ -1,0 +1,34 @@
+".text.html":
+  "polymer element ES2015":
+    "prefix": "pe2015"
+    "body": """
+<dom-module id="${2}">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+  </template>
+  <script>
+    (function (Polymer) {
+      'use strict';
+      class ${1} {
+        beforeRegister() {
+          this.is = '${2}';
+
+          this.properties = {
+            ${3}
+          };
+        }
+
+        attached() {
+        }
+      }
+
+      Polymer(${1});
+    })(Polymer);
+  </script>
+</dom-module>
+"""

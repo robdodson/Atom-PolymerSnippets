@@ -36,6 +36,40 @@ Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-pr
 </dom-module>
 ```
 
+### [pe2015] polymer element ES2015
+
+```html
+<dom-module id="${2}">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+  </template>
+  <script>
+    (function (Polymer) {
+      'use strict';
+      class ${1} {
+        beforeRegister() {
+          this.is = '${2}';
+
+          this.properties = {
+            ${3}
+          };
+        }
+
+        attached() {
+        }
+      }
+
+      Polymer(${1});
+    })(Polymer);
+  </script>
+</dom-module>
+```
+
 ### [pes] polymer element with external stylesheet
 
 ```html
