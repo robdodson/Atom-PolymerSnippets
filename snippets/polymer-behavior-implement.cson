@@ -1,0 +1,12 @@
+".text.html":
+  "polymer behavior implement":
+    "prefix": "pbi"
+    "body": """
+    $2BehaviorImpl = {
+      properties: {
+        $3
+      }
+    };
+
+    $2Behavior = [$2BehaviorImpl];
+    """
