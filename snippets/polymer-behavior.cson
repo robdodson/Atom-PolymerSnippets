@@ -1,0 +1,10 @@
+".text.html":
+  "polymer behavior":
+    "prefix": "pb"
+    "body": """
+    $2Behavior = {
+      properties: {
+        $3
+      }
+    };
+    """

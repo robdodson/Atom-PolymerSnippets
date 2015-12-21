@@ -52,6 +52,28 @@ Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-pr
 </dom-module>
 ```
 
+### [pb] polymer behavior
+
+```javascript
+$2Behavior = {
+  properties: {
+    $3
+  }
+};
+```
+
+### [pbi] polymer behavior implement
+
+```javascript
+$2BehaviorImpl = {
+  properties: {
+    $3
+  }
+};
+
+$2Behavior = [$2BehaviorImpl];
+```
+
 ### [hi] html import
 
 ```html
