@@ -74,6 +74,38 @@ $2BehaviorImpl = {
 $2Behavior = [$2BehaviorImpl];
 ```
 
+### [arrsel] Array selector
+
+```html
+<array-selector id="${1:selector}"
+    	items="{{${2:array}}}" selected="{{${3:selected}}}"
+    	${4:multi} ${5:toggle}>
+</array-selector>
+```
+
+### [dom-if] Template dom-if
+```html
+<template is="dom-if" if="$1"${2: restamp="true"}>$0</template>
+```
+
+### [dom-repeat] Template dom-repeat
+```html
+<template is="dom-repeat" items="$1"${2: index-as="index"}>$0</template>
+```
+
+### [domb] Template dom-bind
+```html
+<template is="dom-bind">
+  $0
+</template>
+```
+
+### [webcomponents] web components polyfill
+
+```html
+<script src="${0:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+```
+
 ### [hi] html import
 
 ```html
