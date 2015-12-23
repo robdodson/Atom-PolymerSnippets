@@ -84,16 +84,19 @@ $2Behavior = [$2BehaviorImpl];
 ```
 
 ### [dom-if] Template dom-if
+
 ```html
 <template is="dom-if" if="$1"${2: restamp="true"}>$0</template>
 ```
 
 ### [dom-repeat] Template dom-repeat
+
 ```html
 <template is="dom-repeat" items="$1"${2: index-as="index"}>$0</template>
 ```
 
 ### [domb] Template dom-bind
+
 ```html
 <template is="dom-bind">
   $0
@@ -104,6 +107,21 @@ $2Behavior = [$2BehaviorImpl];
 
 ```html
 <script src="${0:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+```
+
+### [wcs] load web components polyfill when not supported
+
+```javascript
+// Load Web Components when not supported
+var webComponentsSupported = ('registerElement' in document
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template'));
+
+if (!webComponentsSupported) {
+  var script = document.createElement('script');
+  script.src = '${0:bower_components}/webcomponentsjs/webcomponents-lite.js';
+  document.head.appendChild(script);
+}
 ```
 
 ### [hi] html import
@@ -176,6 +194,49 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 
   <!-- Web Components -->
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+</head>
+<body unresolved>
+  $0
+</body>
+</html>
+```
+
+### [phs] HTML template with Web Components polyfill load when not supported by browser
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>${1}</title>
+  <meta name="description" content="${2}">
+
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- Chrome / Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="icon.png">
+
+  <!-- Safari / iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+
+  <!-- Check if Web Components are supported-->
+  <script>
+    var webComponentsSupported = ('registerElement' in document
+        && 'import' in document.createElement('link')
+        && 'content' in document.createElement('template'));
+
+    if (!webComponentsSupported) {
+      var script = document.createElement('script');
+      script.src = 'bower_components/webcomponentsjs/webcomponents-lite.js';
+      document.head.appendChild(script);
+    }
+  </script>
 </head>
 <body unresolved>
   $0
