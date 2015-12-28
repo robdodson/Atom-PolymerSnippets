@@ -103,3 +103,5 @@
     "prefix": "template"
   "web components polyfill":
     "prefix": "webcomponents"
+  "web components polyfill supported":
+    "prefix": "wcs"
