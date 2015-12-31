@@ -1,0 +1,14 @@
+".text.html":
+  "google-youtube":
+    "prefix": "gyt"
+    "body": """
+    <google-youtube
+      video-id="${1:M7lc1UVf-VE}"
+      height="${2:270px}"
+      width="${3:480px}"
+      autoplay="${4:1}"
+      ${5:fluid}
+      ${6:chromeless}>
+    </google-youtube>
+    $0
+    """

@@ -1,0 +1,9 @@
+".text.html":
+  "google-js-api":
+    "prefix": "gapi"
+    "body": """
+    <google-js-api
+      on-api-load="${1:googleApiLoaded}">
+    </google-js-api>
+    $0
+    """

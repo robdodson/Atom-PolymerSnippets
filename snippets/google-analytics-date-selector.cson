@@ -1,0 +1,10 @@
+".text.html":
+  "google-analytics-date-selector":
+    "prefix": "gads"
+    "body": """
+    <google-analytics-date-selector
+      start-date="${1:30daysAgo}"
+      end-date="${2:today}">
+    </google-analytics-date-selector>
+    $0
+    """

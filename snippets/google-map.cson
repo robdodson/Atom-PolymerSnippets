@@ -1,0 +1,20 @@
+".text.html":
+  "google-map":
+    "prefix": "gma"
+    "body": """
+    <google-map
+      api-key="${1:apiKey}"
+      latitude="${2:37.77493}"
+      longitude="${3:-122.41942}"
+      zoom="${4:15}"
+      ${5:fit-to-markers}"
+    	${6:disable-default-ui}">
+      <google-map-marker
+        title="${7:Go Giants!}"
+        latitude="${1:37.779}"
+        longitude="${2:-122.3892}"
+        draggable="${8:true}">
+      </google-map-marker>
+    </google-map>
+    $0
+    """

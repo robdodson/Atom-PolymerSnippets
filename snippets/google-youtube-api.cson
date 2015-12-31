@@ -1,0 +1,9 @@
+".text.html":
+  "google-youtube-api":
+    "prefix": "gytapi"
+    "body": """
+    <google-youtube-api
+      on-api-load="${1:googleYoutubeLoaded}">
+    </google-youtube-api>
+    $0
+    """

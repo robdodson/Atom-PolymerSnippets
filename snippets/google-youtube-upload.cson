@@ -1,0 +1,17 @@
+".text.html":
+  "google-youtube-upload":
+    "prefix": "gytu"
+    "body": """
+    <google-youtube-upload
+      client-id="${1:clientId}"
+      video-title="${2:My Awesome Video}"
+      on-youtube-processing-complete="${4:onProcessingComplete}"
+      on-youtube-processing-fail="${5:onProcessingFail}"
+      on-youtube-upload-complete="${6:onUploadComplete}"
+      on-youtube-upload-fail="${7:onUploadFail}"
+      on-youtube-upload-start="${8:onUploadStart}"
+      on-youtube-upload-progress="${9:onUploadProgress}"
+      ${3:auto}>
+    </google-youtube-upload>
+    $0
+    """

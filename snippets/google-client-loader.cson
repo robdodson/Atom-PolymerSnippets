@@ -1,0 +1,13 @@
+".text.html":
+  "google-client-loader":
+    "prefix": "gcl"
+    "body": """
+    <google-client-loader
+      id="${1:apiLoader}"
+      name="${2:urlshortener}"
+      version="${3:v1}"
+      on-google-api-load="${4:onGoogleApiLoaded}"
+      on-google-api-load-error="${5:onGoogleApiLoadError}">
+    </google-client-loader>
+    $0
+    """

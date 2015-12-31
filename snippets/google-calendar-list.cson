@@ -1,0 +1,10 @@
+".text.html":
+  "google-calendar-list":
+    "prefix": "gcl"
+    "body": """
+    <google-calendar-list
+      title="${1:title}"
+      calendars="{{${2:calendars}}}">
+    </google-calendar-list>
+    $0
+    """

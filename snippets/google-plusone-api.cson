@@ -1,0 +1,9 @@
+".text.html":
+  "google-plusone-api":
+    "prefix": "gpapi"
+    "body": """
+    <google-plusone-api
+      on-api-load="${1:googlePlusLoaded}">
+    </google-plusone-api>
+    $0
+    """

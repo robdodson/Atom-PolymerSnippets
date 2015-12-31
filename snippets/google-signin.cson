@@ -1,0 +1,14 @@
+".text.html":
+  "google-signin":
+    "prefix": "gsi"
+    "body": """
+    <google-signin
+      client-id="${1:clientId}"
+      ${3:app-package-name="AndroidAppName"}
+      label-signin="${4:Sign-in}"
+      ${5:brand="google"}
+      ${6:theme="dark"}
+      ${2:scopes="https://www.googleapis.com/auth/drive"}>
+    </google-signin>
+    $0
+    """

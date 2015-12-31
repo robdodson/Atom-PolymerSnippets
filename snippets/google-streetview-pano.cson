@@ -1,0 +1,13 @@
+".text.html":
+  "google-streetview-pano":
+    "prefix": "gsp"
+    "body": """
+    <google-streetview-pano
+      position="[[${1:_myComputedPosition()}]]"
+      ${2:heading="330}"
+      ${3:pitch="-2"}
+      ${4:zoom="0.8"}
+      ${5:disable-default-ui}>
+    </google-streetview-pano>
+    $0
+    """

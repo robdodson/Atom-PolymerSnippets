@@ -1,0 +1,10 @@
+".text.html":
+  "firebase-document":
+    "prefix": "fbd"
+    "body": """
+    <firebase-document
+    	location="https://${1:<YOUR-FIREBASE-APP>}.firebaseio.com"
+    	data="{{${2:data}}}">
+    </firebase-document>
+    $0
+    """
