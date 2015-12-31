@@ -1,0 +1,12 @@
+".text.html":
+  "google-chart":
+    "prefix": "gch"
+    "body": """
+    <google-chart
+      type='${1:pie}'
+      options='{${2:"title": "Distribution of days in 2001Q1"}}'
+      cols='[{${3:"label":"Month", "type":"string"}, {"label":"Days", "type":"number"}}]'
+      rows='[${4:["Jan", 31],["Feb", 28]}]'>
+    </google-chart>
+    $0
+    """

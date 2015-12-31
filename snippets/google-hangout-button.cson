@@ -1,0 +1,13 @@
+".text.html":
+  "google-hangout-button":
+    "prefix": "ghb"
+    "body": """
+    <google-hangout-button
+      apps='[${1:{"app_id": "app-id"}}]'
+      invites='[${2:{"id": "example@provider.com", "invite_type": "EMAIL"}}]'
+      topic="${3:topic}"
+      type="${4:normal}"
+      on-google-hangout-button-ready="${5:hangoutButtonReady}">
+    </google-hangout-button>
+    $0
+    """

@@ -1,0 +1,18 @@
+".text.html":
+  "google-analytics-dashboard":
+    "prefix": "gad"
+    "body": """
+    <google-analytics-dashboard
+      <google-analytics-view-selector></google-analytics-view-selector>
+      <google-analytics-date-selector></google-analytics-date-selector>
+
+      <google-analytics-chart
+        metrics="ga:${1:sessions}"
+        dimensions="ga:${2:country}"
+        sort="-ga:${3;sessions}"
+        max-results="${4:5}"
+        chart-type="${5:column}">
+      </google-analytics-chart>
+    </google-analytics-dashboard>
+    $0
+    """

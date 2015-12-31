@@ -1,0 +1,16 @@
+".text.html":
+  "google-analytics-chart":
+    "prefix": "gac"
+    "body": """
+    <google-analytics-chart
+      ids="ga:${1:ids}"
+      data="{{${2:data}}}"
+      metrics="ga:${3:sessions}"
+      dimensions="ga:${4:country}"
+      sort="-ga:${5:sessions}"
+      max-results="${6:5}"
+      type="${7:column}"
+      loading="{{${8:loading}}}">
+    </google-analytics-chart>
+    $0
+    """

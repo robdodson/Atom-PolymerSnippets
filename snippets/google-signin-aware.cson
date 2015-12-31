@@ -1,0 +1,11 @@
+".text.html":
+  "google-signin-aware":
+    "prefix": "gsia"
+    "body": """
+    <google-signin-aware
+      client-id="${1:clientId}"
+      ${2:app-package-name="AndroidAppName"}
+      ${3:scopes="https://www.googleapis.com/auth/drive"}>
+    </google-signin-aware>
+    $0
+    """

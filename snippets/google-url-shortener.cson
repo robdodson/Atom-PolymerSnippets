@@ -1,0 +1,13 @@
+".text.html":
+  "google-url-shortener":
+    "prefix": "gus"
+    "body": """
+    <google-url-shortener
+      long-url="{{${1:longUrl}}}"
+      short-url="{{${2:shortUrl}}}"
+      ${4:on-google-url-shorten="onUrlShorten"}
+      ${5:on-google-url-shorten-error="onUrlShortenError"}
+      ${3:auto}>
+    </google-url-shortener>
+    $0
+    """

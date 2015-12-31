@@ -1,0 +1,10 @@
+".text.html":
+  "google-feeds":
+    "prefix": "gfe"
+    "body": """
+    <google-feeds
+      feed='${1:feed}'
+      results="{{${2:result}}}">
+    </google-feeds>
+    $0
+    """
