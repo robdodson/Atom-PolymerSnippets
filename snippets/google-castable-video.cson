@@ -1,0 +1,14 @@
+".text.html":
+  "google-castable-video":
+    "prefix": "gcv"
+    "body": """
+    <video
+      is="google-castable-video"
+      app-id="${3:appId}"
+      on-google-castable-video-casting="${4:onVideoCasting}"
+      on-google-castable-video-error="${5:onVideoCastingError}"
+      on-google-castable-video-initialized="${6:onVideoCastingInitialized}">
+      <source src="${1:video.mp4}" type="${2:video/mp4}">
+    </video>
+    $0
+    """

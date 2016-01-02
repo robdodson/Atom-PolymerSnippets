@@ -1,0 +1,11 @@
+".text.html":
+  "google-maps-api":
+    "prefix": "gmaapi"
+    "body": """
+    <google-maps-api
+      api-key="${1:apiKey}"
+      on-api-load="${3:onMapsApiLoaded}"
+      on-library-error-message="${4:onMapsApiLoadError}">
+    </google-maps-api>
+    $0
+    """

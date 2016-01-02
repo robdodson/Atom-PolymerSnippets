@@ -1,0 +1,10 @@
+".text.html":
+  "firebase-collection":
+    "prefix": "fbc"
+    "body": """
+    <firebase-collection
+      location="https://${1:<YOUR-FIREBASE-APP>}.firebaseio.com"
+    	data="{{${2:data}}}">
+    </firebase-collection>
+    $0
+    """

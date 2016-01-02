@@ -1,0 +1,15 @@
+".text.html":
+  "google-map-directions":
+    "prefix": "gmd"
+    "body": """
+    <google-map-directions
+      ${1:api-key="apiKey"}
+      map="[[${3:map}]]"
+      start-address="${4:San Francisco}"
+      start-address="${5:Mountain View}"
+      travel-mode="${6:BICYCLING}"
+      ${7:waypoints='[{"location": "Palo Alto"}]'}
+      response="{{${2:response}}}">
+    </google-map-directions>
+    $0
+    """
