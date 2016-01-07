@@ -1,0 +1,44 @@
+".text.html":
+  "Test BDD":
+    "prefix": "bdd-element"
+    "body": """
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+        <title>${1}</title>
+
+        <script src="${0:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+        <script src="${0:bower_components}/web-component-tester/browser.js"></script>
+        <script src="${0:bower_components}/test-fixture/test-fixture-mocha.js"></script>
+        <link rel="import" href="${0:bower_components}/test-fixture/test-fixture.html">
+
+        <!-- Step 1: import the element to test -->
+        <link rel="import" href="${0}.html">
+
+      </head>
+      <body>
+
+      <test-fixture id="basic">
+        <template>
+          $0
+        </template>
+      </test-fixture>
+
+      <script>
+        describe('$1 tests', function() {
+          var element;
+
+          before(function() {
+            element = fixture('basic');
+          });
+
+          it('$0', function() {
+
+          });
+
+        });
+      </script>
+
+      </body>
+    </html>
+    """
