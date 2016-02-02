@@ -1,0 +1,43 @@
+".text.html":
+  "Element test template":
+    "prefix": "test-template"
+    "body": """
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+        <title>fab-menu</title>
+
+        <script src="../../bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <script src="../../bower_components/web-component-tester/browser.js"></script>
+        <script src="../../bower_components/test-fixture/test-fixture-mocha.js"></script>
+
+        <!-- Step 1: import the element to test -->
+        <link rel="import" href="../${1}/${1}.html">
+
+      </head>
+      <body>
+
+      <test-fixture id="basic">
+        <template>
+          <${1}></${1}>
+        </template>
+      </test-fixture>
+
+      <script>
+        suite('${1} tests', function() {
+          var element;
+
+          setup(function() {
+            element = fixture('basic');
+          });
+
+          test('${2}', function() {
+            $0
+          });
+
+        });
+      </script>
+
+      </body>
+    </html>
+    """
