@@ -108,6 +108,22 @@ $2BehaviorImpl = {
 $2Behavior = [$2BehaviorImpl];
 ```
 
+### [pcst] Polymer custom-style template
+```html
+<dom-module id="${1:shared-styles}">
+  <template>
+    <style>
+      $0
+    </style>
+  </template>
+</dom-module>
+```
+
+### [pcs] Polymer custom-style template
+```html
+<style ${1:is="custom-style"} include="${0:shared-styles}"></style>
+```
+
 ### [arrsel] Array selector
 
 ```html
