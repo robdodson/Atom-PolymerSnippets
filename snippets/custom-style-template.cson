@@ -1,0 +1,12 @@
+".text.html":
+  "Polymer custom-style template":
+    "prefix": "pcst"
+    "body": """
+    <dom-module id="${1:shared-styles}">
+      <template>
+        <style>
+          $0
+        </style>
+      </template>
+    </dom-module>
+    """

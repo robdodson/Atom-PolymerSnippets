@@ -1,0 +1,6 @@
+".text.html":
+  "Polymer custom-style":
+    "prefix": "pcs"
+    "body": """
+    <style ${1:is="custom-style"} include="${0:shared-styles}"></style>
+    """
