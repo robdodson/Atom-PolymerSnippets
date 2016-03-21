@@ -1,39 +1,37 @@
 ".text.html":
   "Test TDD":
-    "prefix": "tdd-element"
+    "prefix": "tdd-test"
     "body": """
     <html>
       <head>
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-        <title>${1}</title>
+        <title>$1</title>
 
-        <script src="${0:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
-        <script src="${0:bower_components}/web-component-tester/browser.js"></script>
-        <script src="${0:bower_components}/test-fixture/test-fixture-mocha.js"></script>
-        <link rel="import" href="${0:bower_components}/test-fixture/test-fixture.html">
+        <script src="${2:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+        <script src="${2:bower_components}/web-component-tester/browser.js"></script>
 
         <!-- Step 1: import the element to test -->
-        <link rel="import" href="${2}">
+        <link rel="import" href="$3">
 
       </head>
       <body>
 
       <test-fixture id="basic">
         <template>
-          $0
+          $4
         </template>
       </test-fixture>
 
       <script>
-        suite('$1 tests', function() {
+        suite('$5 tests', function() {
           var element;
 
           setup(function() {
             element = fixture('basic');
           });
 
-          test('', function() {
-
+          test('$6', function() {
+            $0
           });
 
         });
