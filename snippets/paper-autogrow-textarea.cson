@@ -3,6 +3,7 @@
     "prefix": "paper-autogrow-textarea"
     "body": """
     <paper-autogrow-textarea id="${1:a1}">
-      <textarea id="${2:t1}"></textarea>
+      <textarea id="${2:t1}">$3</textarea>
     <paper-autogrow-textarea>
+    $0
     """

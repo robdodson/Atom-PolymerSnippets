@@ -3,6 +3,7 @@
     "prefix": "paper-toolbar"
     "body": """
     <paper-toolbar class="${1:tall}">
-      $0
+      $2
     </paper-toolbar>
+    $0
     """

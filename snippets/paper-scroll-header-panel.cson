@@ -8,4 +8,5 @@
       </paper-toolbar>
       <div>${3:Page content}</div>
     </paper-scroll-header-panel>
+    $0
     """

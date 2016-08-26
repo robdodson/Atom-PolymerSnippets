@@ -6,4 +6,5 @@
       library-url="${1}"
       notify-event="${2}"
       library-loaded="${3}"></iron-jsonp-library>
+    $0
     """

@@ -3,4 +3,5 @@
     "prefix": "paper-ripple"
     "body": """
     <paper-ripple></paper-ripple>
+    $0
     """

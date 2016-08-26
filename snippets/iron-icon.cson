@@ -2,5 +2,6 @@
   "iron icon":
     "prefix": "iron-icon"
     "body": """
-    <iron-icon icon="$0"></iron-icon>
+    <iron-icon icon="$1"></iron-icon>
+    $0
     """

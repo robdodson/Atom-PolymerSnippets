@@ -2,5 +2,6 @@
   "paper toast":
     "prefix": "paper-toast"
     "body": """
-    <paper-toast text="${1:Your draft has been discarded.}">$0</paper-toast>
+    <paper-toast text="${1:Your draft has been discarded.}">$2</paper-toast>
+    $0
     """

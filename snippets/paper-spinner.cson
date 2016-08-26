@@ -3,4 +3,5 @@
     "prefix": "paper-spinner"
     "body": """
     <paper-spinner${1: active}></paper-spinner>
+    $0
     """

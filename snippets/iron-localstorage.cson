@@ -2,5 +2,6 @@
   "iron localstorage":
     "prefix": "iron-localstorage"
     "body": """
-      <iron-localstorage name="${1:my-app-storage}" value="{{${0:value}}}"></iron-localstorage>
+    <iron-localstorage name="${1:my-app-storage}" value="{{${2:value}}}"></iron-localstorage>
+    $0
     """
