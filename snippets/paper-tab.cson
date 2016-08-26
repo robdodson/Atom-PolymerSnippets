@@ -2,5 +2,6 @@
   "paper tab":
     "prefix": "paper-tab"
     "body": """
-    <paper-tab>$0</paper-tab>
+    <paper-tab>$1</paper-tab>
+    $0
     """

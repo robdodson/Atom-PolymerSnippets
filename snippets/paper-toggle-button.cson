@@ -3,4 +3,5 @@
     "prefix": "paper-toggle-button"
     "body": """
     <paper-toggle-button${1: checked}></paper-toggle-button>
+    $0
     """

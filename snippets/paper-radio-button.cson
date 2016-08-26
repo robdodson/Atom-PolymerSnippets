@@ -3,4 +3,5 @@
     "prefix": "paper-radio-button"
     "body": """
     <paper-radio-button></paper-radio-button>
+    $0
     """

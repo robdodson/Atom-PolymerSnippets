@@ -3,4 +3,5 @@
     "prefix": "iron-doc-viewer"
     "body": """
     <iron-doc-viewer descriptor="{{${1:elementDescriptor}}}"></iron-doc-viewer>
+    $0
     """

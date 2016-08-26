@@ -7,4 +7,5 @@
       <paper-tab>${3:TAB 2}</paper-tab>
       <paper-tab>${4:TAB 3}</paper-tab>
     </paper-tabs>
+    $0
     """

@@ -7,4 +7,5 @@
       <paper-radio-button name="${4:medium}">${5:Medium}</paper-radio-button>
       <paper-radio-button name="${6:large}">${7:Large}</paper-radio-button>
     </paper-radio-group>
+    $0
     """

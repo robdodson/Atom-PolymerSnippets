@@ -2,5 +2,6 @@
   "paper button":
     "prefix": "paper-button"
     "body": """
-    <paper-button${1: raised}>$0</paper-button>
+    <paper-button${1: raised}>$2</paper-button>
+    $0
     """

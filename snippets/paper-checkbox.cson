@@ -3,4 +3,5 @@
     "prefix": "paper-checkbox"
     "body": """
     <paper-checkbox${1: checked}></paper-checkbox>
+    $0
     """

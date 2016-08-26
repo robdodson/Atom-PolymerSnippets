@@ -2,5 +2,6 @@
   "web components polyfill":
     "prefix": "webcomponents"
     "body": """
-    <script src="${0:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="${1:bower_components}/webcomponentsjs/webcomponents-lite.js"></script>
+    $0
     """
