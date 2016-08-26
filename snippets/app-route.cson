@@ -1,0 +1,7 @@
+".text.html":
+  "App route":
+    "prefix": "app-route"
+    "body": """
+    <app-route route="{{${1:route}}}" pattern="${2:/:page}"${3: active="\\{\\{${4:active}\\}\\}"}${5: data="\\{\\{${6:data}\\}\\}"}${7: tail="\\{\\{${8:tail}\\}\\}"}></app-route>
+    $0
+    """
