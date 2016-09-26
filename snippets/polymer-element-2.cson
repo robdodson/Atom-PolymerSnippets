@@ -1,0 +1,32 @@
+".text.html":
+  "polymer 2.0 element":
+    "prefix": "pec"
+    "body": """
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+
+<dom-module id="${2}">
+  <template>
+    <custom-style>
+      <style>
+        :host {
+          display: block;
+        }
+      </style>
+    </custom-style>
+  </template>
+  <script>
+    class ${1} extends Polymer.Element {
+      static get is() {return '${2}';}
+      static get config() {
+        return {
+          properties: {
+            $3
+          }
+        };
+      }$0
+    }
+
+    customElements.define(${1}.is, ${1});
+  </script>
+</dom-module>
+"""
