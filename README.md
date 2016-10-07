@@ -193,6 +193,11 @@ if (!webComponentsSupported) {
 ```html
 <link rel="import" href="{1:bower_components}/paper-$2/paper-$2.html">
 ```
+### [hia] html import app-* element
+
+```html
+<link rel="import" href="{1:bower_components}/app-$2/app-$2.html">
+```
 
 ## Web Components
 

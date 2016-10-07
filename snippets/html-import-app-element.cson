@@ -1,0 +1,7 @@
+".text.html":
+  "import app-element":
+    "prefix": "hia"
+    "body": """
+    <link rel="import" href="${1:bower_components}/app-$2/app-$2.html">
+    $0
+    """
