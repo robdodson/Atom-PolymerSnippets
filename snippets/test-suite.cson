@@ -1,0 +1,17 @@
+".text.html":
+  "test suite":
+    "prefix": "test-suite"
+    "body": """
+    suite('${1} tests', function() {
+      var element;
+
+      setup(function() {
+        element = fixture('basic');
+      });
+
+      test('${2}', function() {
+        $0
+      });
+
+    });
+    """
