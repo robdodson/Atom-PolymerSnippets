@@ -1,0 +1,7 @@
+".text.html":
+  "platinum sw fetch":
+    "prefix": "psw-fetch"
+    "body": """
+    <platinum-sw-fetch handler="${1:customFetchHandler}"
+                        path="${2:/(.*)/customFetch}"></platinum-sw-fetch>$3
+    """

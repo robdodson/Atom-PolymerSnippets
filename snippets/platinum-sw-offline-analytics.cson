@@ -1,0 +1,6 @@
+".text.html":
+  "platinum sw offline analytics":
+    "prefix": "psw-analytics"
+    "body": """
+    <platinum-sw-offline-analytics></platinum-sw-offline-analytics>$1
+    """
