@@ -1,0 +1,6 @@
+".text.html":
+  "platinum sw import script":
+    "prefix": "psw-import"
+    "body": """
+    <platinum-sw-import-script href="$1.js"></platinum-sw-import-script>$2
+    """

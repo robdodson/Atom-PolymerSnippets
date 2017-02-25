@@ -1,0 +1,12 @@
+".text.html":
+  "platinum sw register":
+    "prefix": "psw-register"
+    "body": """
+    <platinum-sw-register skip-waiting
+                      ${1:auto-register}
+                      clients-claim
+                      href="${2:sw-import.js}"
+                      ${3:reload-on-install}>
+      $4
+    </platinum-sw-register>
+    """

@@ -1,0 +1,7 @@
+".text.html":
+  "platinum sw cache":
+    "prefix": "psw-cache"
+    "body": """
+    <platinum-sw-cache default-cache-strategy="${1:networkFirst}">
+    </platinum-sw-cache>$2
+    """
