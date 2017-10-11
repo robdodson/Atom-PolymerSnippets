@@ -2,6 +2,8 @@
 
 ![banner](http://s12.postimg.org/opgzpvtpp/banner.png)
 
+**:warning: Note: this repository has been deprecated in favor of the [Polymer atom-plugin](https://github.com/polymer/atom-plugin):warning:**
+
 ## Install
 Go to `atom > Preferences...` then search for Polymer Snippets in the `Install` tab.
 
