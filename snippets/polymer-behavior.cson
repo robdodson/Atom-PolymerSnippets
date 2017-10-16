@@ -2,9 +2,19 @@
   "polymer behavior":
     "prefix": "pb"
     "body": """
-    $2Behavior = {
-      properties: {
-        $3
-      }
-    };
+    <!DOCTYPE html>
+
+    <link rel="import" href="../../bower_components/polymer/polymer.html">
+
+    <script>
+      /**
+       * $3 
+       * @polymerBehavior
+       */
+      $2Behavior = {
+        properties: {
+          $3
+        }
+      };
+    </script>
     """
