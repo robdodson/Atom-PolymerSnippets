@@ -1,6 +1,7 @@
 # These null out the snippets so the snippets are not available when in a tag or
 # in embedded contexts like <script> and <style>
-".text.html .embedded":
+# This also nulls out snippets when editing attributes of a <tag>
+".text.html .embedded, .text.html .meta.tag":
   "dom-if":
     "prefix": "dom-if"
   "dom-repeat":
@@ -105,3 +106,79 @@
     "prefix": "webcomponents"
   "web components polyfill supported":
     "prefix": "wcs"
+  'paper card':
+    'prefix': 'paper-card'
+  'app route':
+    'prefix': 'app-route'
+  'app location':
+    'prefix': 'app-location'
+  'polymer custom-style':
+    'prefix': 'pcs'
+  'polymer custom style template':
+    'prefix': 'pcst'
+  'polymer element es2015':
+    'prefix': 'pe2015'
+  'polymer element full strict':
+    'prefix': 'pefs'
+  'polymer template pag wcs':
+    'prefix': 'phs'
+  'iron jsonp library':
+    'prefix': 'iron-jsonp-library'
+  'import':
+    'prefix': 'import'
+  'test tdd':
+    'prefix': 'tdd-test'
+    'array selector':
+      'prefix': 'arrsel'
+    'test dbb':
+      'prefix': 'dbb-test'
+  'template dom bind':
+    'prefix': 'domb'
+  'element for firebase authentication api':
+    'prefix': 'fba'
+  'favicon':
+    'prefix': 'favicon'
+  'firebase collection':
+    'prefix': 'fbc'
+  'firebase document':
+    'prefix': 'fbd'
+  'heading group':
+    'prefix': 'hdc'
+  'polymer behavior':
+    'prefix': 'pb'
+  'polymer behavior implement':
+    'prefix': 'pbi'
+  'google-analytics-chart':
+    'prefix': 'gac'
+  'google-analytics-dashboard':
+    'prefix': 'gad'
+  'google-analytics-date-selector':
+    'prefix': 'gads'
+  'google-analytics-query':
+    'prefix': 'gaq'
+  'google-analytics-view-selector':
+    'prefix': 'gavs'
+  'google-js-api':
+    'prefix': 'gapi'
+  'google-calandar-busy-now':
+    'prefix': 'gcbn'
+  'google-chart':
+    'prefix': 'gch'
+  'google-client-loader':
+    'prefix': 'gcl'
+  'google-caststable-video':
+    'prefix': 'gcv'
+  'google-feeds':
+    'prefix': 'gfe'
+  'google-hangouts-buton':
+    'prefix': 'gcp'
+  'google-map':
+    'prefix': 'gma'
+  'google-map-directions':
+    'prefix': 'gmd'
+  'google-maps-api':
+    'prefix': 'gmaapi'
+  'google-map-marker':
+    'prefix': 'gmm'
+  'google-map-search':
+    'prefix': 'gms'
